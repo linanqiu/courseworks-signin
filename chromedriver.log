@@ -1,0 +1,23 @@
+[0518/223337:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0518/223337:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Mac OS X","version":"10.8.3"}}}
+[0518/223337:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}
+[0518/223337:INFO:chrome_launcher.cc(74)] Using chrome from /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[0518/223338:INFO:chromedriver_server.cc(81)] Done handling request: 303 
+[0518/223338:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9 
+[0518/223338:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.8","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Mac OS X","rotatable":false,"takesScreenshot":true,"version":"27.0.1453.81","webStorageEnabled":true}}
+[0518/223338:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/url {"url":"https://ssol.columbia.edu/"}
+[0518/223342:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":null}
+[0518/223342:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/element {"using":"css selector","value":"input[name=u_id]"}
+[0518/223342:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":{"ELEMENT":"0.11054256069473922:1"}}
+[0518/223342:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/element {"using":"css selector","value":"input[name=u_pw]"}
+[0518/223342:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":{"ELEMENT":"0.11054256069473922:2"}}
+[0518/223342:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/element/0.11054256069473922:1/value {"id":"0.11054256069473922:1","value":["lq2137"]}
+[0518/223342:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":null}
+[0518/223342:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/element/0.11054256069473922:2/value {"id":"0.11054256069473922:2","value":["Trimalchio9010"]}
+[0518/223343:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":null}
+[0518/223343:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/element/0.11054256069473922:2/submit {"id":"0.11054256069473922:2"}
+[0518/223343:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":null}
+[0518/223343:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/element {"using":"link text","value":"Grades and Registration Status"}
+[0518/223343:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":{"ELEMENT":"0.22231733496300876:1"}}
+[0518/223343:INFO:chromedriver_server.cc(76)] Handling request: /session/2257e6dcc27c383baab6aaa653f057f9/element/0.22231733496300876:1/click {"id":"0.22231733496300876:1"}
+[0518/223345:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"2257e6dcc27c383baab6aaa653f057f9","status":0,"value":null}
